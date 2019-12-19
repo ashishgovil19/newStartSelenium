@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="My Sample Suite" parallel="tests">
+
+
+<test name="Jenkins integration">
+	<classes>
+		<class name="Jenkins_new_Java.testing"/>
+	</classes>
+</test>
+
+
+</suite>
