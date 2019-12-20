@@ -14,7 +14,15 @@ public class test_new {
 		
 		WebDriver driver=new FirefoxDriver();
 		driver.get("https://google.com");
+		System.out.println(driver.getTitle());
 	
 	}
+	
+	@Test
+	public void getData(){
+		System.out.println("data is 37 pounds");
+	}
+	
+	
 
 }
